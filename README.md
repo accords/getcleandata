@@ -1,9 +1,9 @@
 ###Getting and Cleaning Data
 *by Jeff Leek, PhD, Roger D. Peng, PhD, Brian Caffo, PhD*
-Repo: getcleandata
-File: *README.md (https://github.com/accords/getcleandata/edit/master/README.md)*
-Repo Content: * README.md, CookBook.md, run_analysis.R, Tidy_DS_PersonActivity_avg.csv*
-Purpose:
+ Repo: getcleandata
+ File: *README.md (https://github.com/accords/getcleandata/edit/master/README.md)*
+ Repo Content: * README.md, CookBook.md, run_analysis.R, Tidy_DS_PersonActivity_avg.csv*
+ Purpose:
   * `README.md` - this file
   * `CookBook.md` - data dictionary. Description of variables from tidy data set file Tidy_DS_PersonActivity_avg.csv
   * `Tidy_DS_PersonActivity_avg.csv` - a tidy data set file
