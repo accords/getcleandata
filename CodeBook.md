@@ -1,9 +1,16 @@
 ####CookBook.md
 Based on: *Human Activity Recognition Using Smartphones Dataset, Version 1.0*
-#####01. person.Number
-    Integers from 1 to 30
-    A group of 30 volunteers within an age bracket of 19-48 years
+######01. person.Number
+    Unique Integers from 1 to 30
+    Meaning: A group of 30 volunteers within an age bracket of 19-48 years
 ######02. activity.Name
+    * WALKING
+    * WALKING_UPSTAIRS
+    * WALKING_DOWNSTAIRS
+    * SITTING
+    * STANDING
+    * LAYING
+    Meaning: different volunteers activity
 03. tBodyAcc.mean.X.PersActAvg
 04. tBodyAcc.mean.Y.PersActAvg
 05. tBodyAcc.mean.Z.PersActAvg
