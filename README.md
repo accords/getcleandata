@@ -49,9 +49,14 @@ The following steps are taken during the tidy data set creation:
 
 ####`run_analysis.R` functions. 
  File   : run_analysis.R
+ 
+ 
  By     : accords
+ 
  github : https://github.com/accords/getcleandata
+ 
  Content:
+ 
     Function: createDF.tidy.avg()
     Returns : data.frame (merged training and testing tidy data sets)
     Purpose : To create tidy data set with the average of each variable per activity and subject
