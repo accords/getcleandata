@@ -1,5 +1,5 @@
-####File: CookBook.md (https://github.com/accords/getcleandata/edit/master/CodeBook.md)
 ## DATA DICTIONARY 
+File: *CookBook.md (https://github.com/accords/getcleandata/edit/master/CodeBook.md)*
 Based on: *Human Activity Recognition Using Smartphones Dataset, Version 1.0*
 ######01. person.Number
     Unique Integers from 1 to 30
