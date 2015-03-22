@@ -47,7 +47,7 @@ The following steps are taken during the tidy data set creation:
           As result, you will find a redundancy and repetition.
           In return, the evaluation, supported by comments, should be simple and from top to bottom.
 
-####`run_analysis.R` functions. 
+####File `run_analysis.R` header. 
  File   : run_analysis.R
  
  
