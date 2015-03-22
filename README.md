@@ -12,7 +12,7 @@ The goal is to prepare tidy data that can be used for later analysis.
 You should also include a README.md in the repo with your scripts. 
 This repo explains how all of the scripts work and how they are connected.  
 
-'run_analysis.R that does the following. 
+`run_analysis.R that does the following. 
 
 
 1. Merges the training and the test sets to create one data set.
