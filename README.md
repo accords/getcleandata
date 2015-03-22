@@ -1,7 +1,9 @@
 ###Getting and Cleaning Data
- Repo: getcleandata
+ Repo: `getcleandata` (https://github.com/accords/getcleandata)
  
- File: *README.md (https://github.com/accords/getcleandata/edit/master/README.md)*
+ By: accords
+ 
+ File: `README.md` (https://github.com/accords/getcleandata/edit/master/README.md)
  
  Repo Content: * README.md, CookBook.md, run_analysis.R, Tidy_DS_PersonActivity_avg.csv*
  
