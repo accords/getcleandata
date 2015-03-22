@@ -5,10 +5,10 @@ File: *README.md (https://github.com/accords/getcleandata/edit/master/README.md)
 
 Repo Content: *README.md, CookBook.md, run_analysis.R, Tidy_DS_PersonActivity_avg.csv*
 Purpose:
-         * `README.md` - this file
-         * `CookBook.md` - data dictionary. Description of variables from tidy data set file Tidy_DS_PersonActivity_avg.csv
-         * `Tidy_DS_PersonActivity_avg.csv` - a tidy data set file
-         *`run_analysis.R` - R code that creates tidy data set file, 
+          * `README.md` - this file
+          * `CookBook.md` - data dictionary. Description of variables from tidy data set file Tidy_DS_PersonActivity_avg.csv
+          * `Tidy_DS_PersonActivity_avg.csv` - a tidy data set file
+          *`run_analysis.R` - R code that creates tidy data set file, 
 ####The Project
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. 
 The goal is to prepare tidy data that can be used for later analysis. 
