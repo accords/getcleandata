@@ -22,4 +22,14 @@ run_analysis.R that does the following.
 4.Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+The first function, `makeVector` creates a special "vector", which is
+really a list containing a function to
+
+1.  set the value of the vector
+2.  get the value of the vector
+3.  set the value of the mean
+4.  get the value of the mean
+
+<!-- -->
+
 
