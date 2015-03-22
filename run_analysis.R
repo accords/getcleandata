@@ -1,7 +1,30 @@
-#   File: run_analysis.R
-#     By: accords
-# github: https://github.com/accords/getcleandata
-#
+# File   : run_analysis.R
+# By     : accords
+# github : https://github.com/accords/getcleandata
+# Content:
+#    Function: createDF.tidy.avg()
+#    Returns : data.frame (merged training and testing tidy data sets)
+#    Purpose : To create tidy data set with the average of each variable per activity and subject
+#              This function depends on function createDF.merged()
+#              Note that createDF.merged depends on functions createDF.train() and createDF.test()   
+#    
+#    Function: createDF.from.merged()
+#    Returns : data.frame (merged training and testing tidy data sets)
+#              creates a text file 'Tidy_DS_PersonActivity_avg.csv'
+#    Purpose : Merges the training and the testing tidy sets and creates one data set.
+#              This function depends on functions createDF.train() and createDF.test()   
+#    
+#    Function: createDF.test()
+#    Returns : data.frame (testing tidy data set)
+#    Purpose : Loading test observation data from csv files. 
+#              Only csv file variables (columns) that are corresponding 
+#              to std() mean() calculations are loaded.
+#    
+#    Function: createDF.train()
+#    Returns : data.frame (training tidy data set)
+#    Purpose : Loading train observation data from csv files. 
+#              Only csv file variables (columns) that are corresponding 
+#              to std() mean() calculations are loaded.
 #
 # Note to evaluator:
 #          As this is not the R coding  project, my primary goal was to apply the coding style that, 
@@ -178,9 +201,9 @@ createDF.merged <- function(){
    return (rbind(DF.train, DF.test)) 
 }
 
-createDF.tidy.avg  <- function(file, sedCmd=NULL, ...){
+createDF.tidy.avg  <- function(){
 
-   # Function: createDF.tidy.avg
+   # Function: createDF.tidy.avg()
    # Returns : data.frame (merged training and testing tidy data sets)
    # Purpose : To create tidy data set with the average of each variable per activity and subject
    #           This function depends on function createDF.merged()
